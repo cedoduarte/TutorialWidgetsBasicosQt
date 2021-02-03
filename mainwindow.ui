@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QMdiArea" name="mdiArea"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionSalir"/>
+   </widget>
+   <widget class="QMenu" name="menuVentanas">
+    <property name="title">
+     <string>Ventanas</string>
+    </property>
+    <addaction name="actionButton_Dialog"/>
+    <addaction name="actionCheckBox_Dialog"/>
+    <addaction name="actionComboBox_Dialog"/>
+    <addaction name="actionContainer_Dialog"/>
+    <addaction name="actionDateTime_Dialog"/>
+    <addaction name="actionEmail_Dialog"/>
+    <addaction name="actionRadioButton_Dialog"/>
+    <addaction name="actionSpinBox_Dialog"/>
+   </widget>
+   <widget class="QMenu" name="menuMdi_Ventanas">
+    <property name="title">
+     <string>Mdi Ventanas</string>
+    </property>
+    <addaction name="actionButton_Subwindow"/>
+    <addaction name="actionCheckBox_Subwindow"/>
+    <addaction name="actionComboBox_Subwindow"/>
+    <addaction name="actionContainer_Subwindow"/>
+    <addaction name="actionDateTime_Subwindow"/>
+    <addaction name="actionEmail_Subwindow"/>
+    <addaction name="actionRadioButton_Subwindow"/>
+    <addaction name="actionSpinBox_Subwindow"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuVentanas"/>
+   <addaction name="menuMdi_Ventanas"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+  <action name="actionButton_Dialog">
+   <property name="text">
+    <string>Button Dialog</string>
+   </property>
+  </action>
+  <action name="actionCheckBox_Dialog">
+   <property name="text">
+    <string>CheckBox Dialog</string>
+   </property>
+  </action>
+  <action name="actionComboBox_Dialog">
+   <property name="text">
+    <string>ComboBox Dialog</string>
+   </property>
+  </action>
+  <action name="actionContainer_Dialog">
+   <property name="text">
+    <string>Container Dialog</string>
+   </property>
+  </action>
+  <action name="actionDateTime_Dialog">
+   <property name="text">
+    <string>DateTime Dialog</string>
+   </property>
+  </action>
+  <action name="actionEmail_Dialog">
+   <property name="text">
+    <string>Email Dialog</string>
+   </property>
+  </action>
+  <action name="actionRadioButton_Dialog">
+   <property name="text">
+    <string>RadioButton Dialog</string>
+   </property>
+  </action>
+  <action name="actionSpinBox_Dialog">
+   <property name="text">
+    <string>SpinBox Dialog</string>
+   </property>
+  </action>
+  <action name="actionButton_Subwindow">
+   <property name="text">
+    <string>Button Subwindow</string>
+   </property>
+  </action>
+  <action name="actionCheckBox_Subwindow">
+   <property name="text">
+    <string>CheckBox Subwindow</string>
+   </property>
+  </action>
+  <action name="actionComboBox_Subwindow">
+   <property name="text">
+    <string>ComboBox Subwindow</string>
+   </property>
+  </action>
+  <action name="actionContainer_Subwindow">
+   <property name="text">
+    <string>Container Subwindow</string>
+   </property>
+  </action>
+  <action name="actionDateTime_Subwindow">
+   <property name="text">
+    <string>DateTime Subwindow</string>
+   </property>
+  </action>
+  <action name="actionEmail_Subwindow">
+   <property name="text">
+    <string>Email Subwindow</string>
+   </property>
+  </action>
+  <action name="actionRadioButton_Subwindow">
+   <property name="text">
+    <string>RadioButton Subwindow</string>
+   </property>
+  </action>
+  <action name="actionSpinBox_Subwindow">
+   <property name="text">
+    <string>SpinBox Subwindow</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
